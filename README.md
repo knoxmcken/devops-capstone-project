@@ -1,7 +1,9 @@
-# DevOps Capstone Template
+# devops-capstone-project
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
+
+My capstone project for the IBM DevOps and Software Engineering Professional Certificate. It is a customer accounts microservice for an e-commerce site: a Python Flask REST API backed by a Postgres database that supports creating, reading, updating, deleting, and listing customer accounts. The project covers agile planning with a GitHub Kanban board, test-driven development, containerization with Docker, and CI/CD deployment to Kubernetes/OpenShift with Tekton.
 
 This repository contains the starter code for the project in [**IBM-CD0285EN-SkillsNetwork DevOps Capstone Project**](https://www.coursera.org/learn/devops-capstone-project?specialization=devops-and-software-engineering) which is part of the [**IBM DevOps and Software Engineering Professional Certificate**](https://www.coursera.org/professional-certificates/devops-and-software-engineering)
 
