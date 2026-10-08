@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
+[![Build Status](https://github.com/knoxmcken/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/knoxmcken/devops-capstone-project/actions/workflows/ci-build.yaml)
 
 My capstone project for the IBM DevOps and Software Engineering Professional Certificate. It is a customer accounts microservice for an e-commerce site: a Python Flask REST API backed by a Postgres database that supports creating, reading, updating, deleting, and listing customer accounts. The project covers agile planning with a GitHub Kanban board, test-driven development, containerization with Docker, and CI/CD deployment to Kubernetes/OpenShift with Tekton.
 
