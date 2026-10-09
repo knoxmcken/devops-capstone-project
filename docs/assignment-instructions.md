@@ -74,7 +74,7 @@ with a **passing threshold of 70%**.
 | 24 ✅ | Submit a screenshot named `security-kanban-done.jpeg`/`.png`, showing the story "Need to add security headers and CORS policies" moved to the Done column. | 1 |
 | 25 ✅ | Submit a screenshot named `sprint3-plan.jpeg`/`.png`, showing the three user stories added to Sprint 3. | 1 |
 | 26 | Copy and paste the JSON output, saved in the file named `kube-app-output`, which is generated after the application successfully launches in the internal web browser on port 8080. | 1 |
-| 27 | Submit a screenshot named `kube-docker-done.jpeg`/`.png`, showing the story "Containerize your microservice using Docker" moved to the Done column. | 1 |
+| 27 ✅ | Submit a screenshot named `kube-docker-done.jpeg`/`.png`, showing the story "Containerize your microservice using Docker" moved to the Done column. | 1 |
 | 28 | Submit a screenshot named `kube-kubernetes-done.jpg`/`.png`, showing the story "Deploy your Docker image to Kubernetes" moved to the Done column. | 1 |
 | 29 ✅ | Submit the public GitHub URL of the `Dockerfile`, which contains the detailed configuration for building the Docker image. | 2 |
 | 30 ✅ | Copy and paste the output saved in the file named `kube-images`, which shows the details of your Docker image, including Name, Tag, Image ID, Created Time, and Size. | 2 |
@@ -110,6 +110,7 @@ See repo/project state for live status. Quick summary at time of writing:
   - Task 20 — [`evidence/screenshots/ci-kanban-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/ci-kanban-done.jpg)
   - Task 24 — [`evidence/screenshots/security-kanban-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/security-kanban-done.jpg) — Sprint 2 complete.
   - Task 25 — [`evidence/screenshots/sprint3-plan.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/sprint3-plan.jpg) — 3 new stories added to Sprint Backlog for Sprint 3.
+  - Task 27 — [`evidence/screenshots/kube-docker-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/kube-docker-done.jpg)
 - ✅ **Completed — evidence captured** (built/ran the container + Postgres on `db2`
   via Docker, hit the live REST API with curl, ran the full nosetests suite,
   and pulled the GitHub Actions log): Tasks 13–17, 19, 23, 30. Evidence
