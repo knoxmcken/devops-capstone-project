@@ -1,0 +1,14 @@
+$ curl -i -s -X DELETE http://localhost:8085/accounts/2
+
+HTTP/1.1 204 NO CONTENT
+Server: gunicorn
+Date: Fri, 09 Oct 2026 17:28:11 GMT
+Connection: close
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; object-src 'none'
+Referrer-Policy: strict-origin-when-cross-origin
+

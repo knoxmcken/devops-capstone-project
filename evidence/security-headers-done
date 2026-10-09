@@ -1,0 +1,62 @@
+Unable to find image 'python:3.9-slim' locally
+3.9-slim: Pulling from library/python
+Digest: sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+Status: Downloaded newer image for python:3.9-slim
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 23.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+
+Test Flask CLI Commands
+- It should call the db-create command
+
+Test Cases for Account Model
+- It should Create an account and add it to the database
+- It should Create an Account and assert that it exists
+- It should Delete an account from the database
+- It should Deserialize an account
+- It should not Deserialize an account with a KeyError
+- It should not Deserialize an account with a TypeError
+- It should default date_joined to today when it is not provided
+- It should Find an Account by name
+- It should List all Accounts in the database
+- It should Read an account
+- It should return a string representation of an Account
+- It should Serialize an account
+- It should Update an account
+
+Account Service Tests
+- It should not Create an Account when sending the wrong data
+- It should Create a new Account
+- It should Delete an existing Account
+- It should not Delete an Account that is not found
+- It should Read an existing Account
+- It should not Read an Account that is not found
+- It should be healthy
+- It should get 200_OK from the Home Page
+- It should return 500 when an unexpected error occurs
+- It should List Accounts filtered by name
+- It should List all Accounts in the database
+- It should not allow an unsupported method on the collection
+- It should not Create an Account when sending the wrong media type
+- It should Update an existing Account
+- It should not Update an Account that is not found
+
+Name                               Stmts   Miss  Cover   Missing
+----------------------------------------------------------------
+service/__init__.py                   22      3    86%   43-46
+service/common/__init__.py             0      0   100%
+service/common/cli_commands.py         7      0   100%
+service/common/error_handlers.py      32      0   100%
+service/common/log_handlers.py        10      1    90%   21
+service/common/status.py              46      0   100%
+service/config.py                     11      5    55%   12-16
+service/models.py                     69      1    99%   32
+service/routes.py                     62      0   100%
+----------------------------------------------------------------
+TOTAL                                259     10    96%
+----------------------------------------------------------------------
+Ran 29 tests in 1.417s
+
+OK
+
