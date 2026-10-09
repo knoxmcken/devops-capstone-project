@@ -51,7 +51,7 @@ with a **passing threshold of 70%**.
 | 1 ✅ | Submit the public GitHub URL of the `README.md` file that contains the Project name details and displays the updated build status badge after a successful build. | 2 |
 | 2 ✅ | Submit the public GitHub URL of the `user-story.md` file, which contains the template for user stories. | 1 |
 | 3 ✅ | Submit a screenshot named `planning-userstories-done.jpeg`/`.png` that lists all user stories from the 'New Issues' column on your Kanban board. | 1 |
-| 4 | Submit a screenshot named `planning-productbacklog-done.jpeg`/`.png` that lists the user stories under the Ice Box. | 1 |
+| 4 ✅ | Submit a screenshot named `planning-productbacklog-done.jpeg`/`.png` that lists the user stories under the Ice Box. | 1 |
 | 5 | Submit a screenshot named `planning-labels-done.jpeg`/`.png`, showing the user stories in the Product Backlog column, labelled as Technical Debt or Enhancement. | 1 |
 | 6 | Submit a screenshot named `planning-kanban-done.jpeg`/`.png` showing the stories in the Sprint Backlog column, with each story having an estimate and assigned to the first sprint. | 1 |
 | 7 ✅ | Submit the public GitHub URL of the `setup.cfg` file, which contains the configuration for nosetests, coverage report, Flake8, and Pylint. | 1 |
@@ -98,6 +98,7 @@ See repo/project state for live status. Quick summary at time of writing:
   https://github.com/users/knoxmcken/projects/2, 10 user-story issues created,
   `Technical Debt`/`enhancement` labels, `Estimate` + `Sprint` fields added):
   - Task 3 — [`evidence/screenshots/planning-userstories-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/planning-userstories-done.jpg) — all 10 stories shown in the **New issues** column.
+  - Task 4 — [`evidence/screenshots/planning-productbacklog-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/planning-productbacklog-done.jpg) — all 10 stories shown in the **Icebox** column.
 - ✅ **Completed — evidence captured** (built/ran the container + Postgres on `db2`
   via Docker, hit the live REST API with curl, ran the full nosetests suite,
   and pulled the GitHub Actions log): Tasks 13–17, 19, 23, 30. Evidence
