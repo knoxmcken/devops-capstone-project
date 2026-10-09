@@ -65,13 +65,13 @@ with a **passing threshold of 70%**.
 | 15 ✅ | Copy and paste the cURL command and its output, saved in the file named `rest-read-done`, which READs the function of an account. | 2 |
 | 16 ✅ | Copy and paste the cURL command and its output, saved in the file named `rest-update-done`, which UPDATEs the function of an account. | 2 |
 | 17 ✅ | Copy and paste the cURL command and its output, saved in the file named `rest-delete-done`, which DELETEs the function of an account. | 2 |
-| 18 | Submit a screenshot named `sprint2-plan.jpeg`/`.png`, showing the two new user stories added under the Sprint Backlog for the second sprint. | 1 |
+| 18 ✅ | Submit a screenshot named `sprint2-plan.jpeg`/`.png`, showing the two new user stories added under the Sprint Backlog for the second sprint. | 1 |
 | 19 ✅ | Provide the terminal output text, saved as `ci-workflow-done`, showing the details of GitHub Actions running successfully, including all workflow steps. | 2 |
-| 20 | Submit a screenshot named `ci-kanban-done.jpeg`/`.png`, showing the story "Need the ability to automate continuous integration checks" moved to the Done column. | 1 |
+| 20 ✅ | Submit a screenshot named `ci-kanban-done.jpeg`/`.png`, showing the story "Need the ability to automate continuous integration checks" moved to the Done column. | 1 |
 | 21 ✅ | Submit the public GitHub repository URL for the `ci-build.yaml` file. Must include: complete YAML configuration details; a step for checking out the code; a step for linting the code after checkout; a step for executing unit tests using nosetests after the linting step. | 4 |
 | 22 ✅ | Submit the public GitHub URL of the `__init__.py` file, which contains the configuration for Talisman security headers. | 1 |
 | 23 ✅ | Submit the output text, saved as a file named `security-headers-done`, of nosetests and the Accounts service tests showing all tests passing after implementing CORS policies. | 1 |
-| 24 | Submit a screenshot named `security-kanban-done.jpeg`/`.png`, showing the story "Need to add security headers and CORS policies" moved to the Done column. | 1 |
+| 24 ✅ | Submit a screenshot named `security-kanban-done.jpeg`/`.png`, showing the story "Need to add security headers and CORS policies" moved to the Done column. | 1 |
 | 25 | Submit a screenshot named `sprint3-plan.jpeg`/`.png`, showing the three user stories added to Sprint 3. | 1 |
 | 26 | Copy and paste the JSON output, saved in the file named `kube-app-output`, which is generated after the application successfully launches in the internal web browser on port 8080. | 1 |
 | 27 | Submit a screenshot named `kube-docker-done.jpeg`/`.png`, showing the story "Containerize your microservice using Docker" moved to the Done column. | 1 |
@@ -106,6 +106,9 @@ See repo/project state for live status. Quick summary at time of writing:
   - Task 10 — [`evidence/screenshots/list-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/list-accounts.jpg)
   - Task 11 — [`evidence/screenshots/update-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/update-accounts.jpg)
   - Task 12 — [`evidence/screenshots/delete-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/delete-accounts.jpg) — Sprint 1 complete, all 5 stories in Done.
+  - Task 18 — [`evidence/screenshots/sprint2-plan.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/sprint2-plan.jpg) — 2 new stories added to Sprint Backlog for Sprint 2.
+  - Task 20 — [`evidence/screenshots/ci-kanban-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/ci-kanban-done.jpg)
+  - Task 24 — [`evidence/screenshots/security-kanban-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/security-kanban-done.jpg) — Sprint 2 complete.
 - ✅ **Completed — evidence captured** (built/ran the container + Postgres on `db2`
   via Docker, hit the live REST API with curl, ran the full nosetests suite,
   and pulled the GitHub Actions log): Tasks 13–17, 19, 23, 30. Evidence
