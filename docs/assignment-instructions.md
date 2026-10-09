@@ -55,11 +55,11 @@ with a **passing threshold of 70%**.
 | 5 ✅ | Submit a screenshot named `planning-labels-done.jpeg`/`.png`, showing the user stories in the Product Backlog column, labelled as Technical Debt or Enhancement. | 1 |
 | 6 ✅ | Submit a screenshot named `planning-kanban-done.jpeg`/`.png` showing the stories in the Sprint Backlog column, with each story having an estimate and assigned to the first sprint. | 1 |
 | 7 ✅ | Submit the public GitHub URL of the `setup.cfg` file, which contains the configuration for nosetests, coverage report, Flake8, and Pylint. | 1 |
-| 8 | Submit a screenshot named `rest-techdebt-done.png`/`.jpeg`, showing the story "Setting up the development environment" moved to the Done column. | 1 |
-| 9 | Submit a screenshot named `read-accounts.jpeg`/`.png`, showing the story "Read an account from the service" moved to the Done column. | 1 |
-| 10 | Submit a screenshot named `list-accounts.png`/`.jpeg`, showing the story "List all accounts in the service" moved to the Done column. | 1 |
-| 11 | Submit a screenshot named `update-accounts.jpeg`/`.png`, showing the story "Update an account in the service" moved to Done. | 1 |
-| 12 | Submit a screenshot named `delete-accounts.jpeg`/`.png`, showing the story "Delete an account from the service" moved to Done. | 1 |
+| 8 ✅ | Submit a screenshot named `rest-techdebt-done.png`/`.jpeg`, showing the story "Setting up the development environment" moved to the Done column. | 1 |
+| 9 ✅ | Submit a screenshot named `read-accounts.jpeg`/`.png`, showing the story "Read an account from the service" moved to the Done column. | 1 |
+| 10 ✅ | Submit a screenshot named `list-accounts.png`/`.jpeg`, showing the story "List all accounts in the service" moved to the Done column. | 1 |
+| 11 ✅ | Submit a screenshot named `update-accounts.jpeg`/`.png`, showing the story "Update an account in the service" moved to Done. | 1 |
+| 12 ✅ | Submit a screenshot named `delete-accounts.jpeg`/`.png`, showing the story "Delete an account from the service" moved to Done. | 1 |
 | 13 ✅ | Copy and paste the cURL command and its output, saved in the file named `rest-create-done`, that demonstrate the CREATE function of an account. | 2 |
 | 14 ✅ | Copy and paste the cURL command and its output, saved in the file named `rest-list-done`, which LISTs the function of an account. | 2 |
 | 15 ✅ | Copy and paste the cURL command and its output, saved in the file named `rest-read-done`, which READs the function of an account. | 2 |
@@ -101,6 +101,11 @@ See repo/project state for live status. Quick summary at time of writing:
   - Task 4 — [`evidence/screenshots/planning-productbacklog-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/planning-productbacklog-done.jpg) — all 10 stories shown in the **Icebox** column.
   - Task 5 — [`evidence/screenshots/planning-labels-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/planning-labels-done.jpg) — Product Backlog with Technical Debt/enhancement labels visible on each card.
   - Task 6 — [`evidence/screenshots/planning-kanban-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/planning-kanban-done.jpg) — Sprint Backlog, 5 stories with Estimate + Sprint 1 assigned.
+  - Task 8 — [`evidence/screenshots/rest-techdebt-done.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/rest-techdebt-done.jpg)
+  - Task 9 — [`evidence/screenshots/read-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/read-accounts.jpg)
+  - Task 10 — [`evidence/screenshots/list-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/list-accounts.jpg)
+  - Task 11 — [`evidence/screenshots/update-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/update-accounts.jpg)
+  - Task 12 — [`evidence/screenshots/delete-accounts.jpg`](https://github.com/knoxmcken/devops-capstone-project/blob/main/evidence/screenshots/delete-accounts.jpg) — Sprint 1 complete, all 5 stories in Done.
 - ✅ **Completed — evidence captured** (built/ran the container + Postgres on `db2`
   via Docker, hit the live REST API with curl, ran the full nosetests suite,
   and pulled the GitHub Actions log): Tasks 13–17, 19, 23, 30. Evidence
